@@ -161,6 +161,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    redis (4.8.1)
     regexp_parser (2.7.0)
     reline (0.3.3)
       io-console (~> 0.5)
@@ -179,6 +180,8 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.2-x64-mingw-ucrt)
     stimulus-rails (1.2.1)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.27-x64-mingw-ucrt)
       railties (>= 6.0.0)
     thor (1.2.1)
     timeout (0.3.2)
@@ -218,10 +221,12 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
+  redis (~> 4.0)
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  tailwindcss-rails (~> 2.0)
   turbo-rails
   tzinfo-data
   web-console
